@@ -6,7 +6,6 @@ import { AiFillMinusCircle, AiFillPlusCircle } from 'react-icons/ai'
 function App() {
   const [cont, setCont] = useState(0);
 
-
   return (
     <>
       <GlobalStyle />
