@@ -23,5 +23,6 @@ export const GlobalStyle = createGlobalStyle`
         border-radius: 5px;
         cursor: pointer;
         font-size: 1.5em;
+        box-shadow: 3px 3px grey;
     }
 `;
