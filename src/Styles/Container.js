@@ -60,3 +60,21 @@ export const StyledButtonReset = styled.button`
 export const StyledButtonInc = styled.button`
     background-color: #38B446;
 `;
+
+export const StyledFooterContainer = styled.div`
+    width: 100%;
+    padding: 10px 15px;
+    position: relative;
+    bottom: 0;
+    font-size: 1.5em;
+    color: grey;
+`;
+export const StyledFooter = styled.footer`
+    display: flex;
+    justify-content: center;
+`;
+
+export const StyledFooterLink = styled.a`
+    text-decoration: none;
+    color: grey;
+`;

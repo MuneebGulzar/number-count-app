@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { GlobalStyle } from "./Styles/GlobalStyles";
-import { ButtonContainer, StyledButtonDec, StyledButtonInc, StyledButtonReset, StyledContainer, StyledNumber, StyledTitle } from "./Styles/Container";
+import { ButtonContainer, StyledButtonDec, StyledButtonInc, StyledButtonReset, StyledContainer, StyledFooter, StyledFooterContainer, StyledFooterLink, StyledNumber, StyledTitle } from "./Styles/Container";
 import { GrPowerReset } from 'react-icons/gr';
 import { AiFillMinusCircle, AiFillPlusCircle } from 'react-icons/ai'
+import { BsGithub } from 'react-icons/bs';
 function App() {
   const [cont, setCont] = useState(0);
 
@@ -15,7 +16,7 @@ function App() {
   const resethandler = () => {
     setCont(0);
   }
-  
+
   return (
     <>
       <GlobalStyle />
@@ -28,6 +29,9 @@ function App() {
           <StyledButtonInc onClick={increasehandler}><AiFillPlusCircle /></StyledButtonInc>
         </ButtonContainer>
       </StyledContainer>
+      <StyledFooterContainer>
+        <StyledFooter><StyledFooterLink href="https://github.com/MuneebGulzar" target="_blank"><BsGithub /> MuneebGulzar</StyledFooterLink></StyledFooter>
+      </StyledFooterContainer>
     </>
   );
 }

@@ -13,7 +13,6 @@ export const GlobalStyle = createGlobalStyle`
         display: flex;
         justify-content: center;
         align-items: center;
-        /* position: relative; */
     }
     button{
         padding: 10px 15px;
