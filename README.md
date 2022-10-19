@@ -71,4 +71,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 ### Count Number APP
+
 This is my little project using useState hook of react for number counting. 
+
+### Checkout the project
+
+Have a look at: [https://muneebgulzar.github.io/number-count-app/](https://muneebgulzar.github.io/number-count-app/)
+
