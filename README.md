@@ -1,6 +1,6 @@
 ## Count Number APP
 
-This is my little project using useState hook of react for number counting. 
+This is my little project using useState hook of react and StyledComponents for number counting. 
 
 ## Checkout the project
 
