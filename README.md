@@ -1,8 +1,8 @@
-### Count Number APP
+## Count Number APP
 
 This is my little project using useState hook of react for number counting. 
 
-### Checkout the project
+## Checkout the project
 
 Have a look at: [https://muneebgulzar.github.io/number-count-app/](https://muneebgulzar.github.io/number-count-app/)
 
