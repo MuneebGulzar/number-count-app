@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/number-count-app/static/js/main.270b5228.js",
+    "index.html": "/number-count-app/index.html",
+    "main.270b5228.js.map": "/number-count-app/static/js/main.270b5228.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.270b5228.js"
+  ]
+}
