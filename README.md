@@ -1,3 +1,11 @@
+## Count Number APP
+
+This is my little project using useState hook of react and StyledComponents for number counting. 
+
+## Checkout the project
+
+Have a look at: [https://muneebgulzar.github.io/number-count-app/](https://muneebgulzar.github.io/number-count-app/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +76,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
