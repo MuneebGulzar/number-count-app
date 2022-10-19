@@ -20,7 +20,7 @@ function App() {
     <>
       <GlobalStyle />
       <StyledContainer>
-        <StyledTitle>Number Count App</StyledTitle>
+        <StyledTitle>Count Number App</StyledTitle>
         <StyledNumber>{cont}</StyledNumber>
         <ButtonContainer>
           <StyledButtonDec onClick={decreasehandler}><AiFillMinusCircle /></StyledButtonDec>
