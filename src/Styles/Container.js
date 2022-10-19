@@ -1,90 +1,62 @@
 import styled from "styled-components";
 
 export const StyledContainer = styled.div`
-    width: 50vw;
-    height: 50vh;
+    width: 90vw;
+    height: 90vh;
     background-color: #fff;
-    border: 3px solid #fff;
-    border-radius: 15px;
-    box-shadow: 5px 5px 3px 5px rgba(0,0,0,0.5);
+    box-shadow: 3px 3px 5px grey;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    
-    @media only screen and (max-width: 480px){
-        width: 90vw;
-        height: 90vh;
+    position: relative;
+    @media screen and (min-width: 481px) and (max-width: 768px){
+        width: 70vw;
     }
-
-    @media only screen and  (max-width: 768px){
-        width: 80vw;
-        height: 80vh;
+    @media screen and (min-width: 769px) and (max-width: 1279px){
+        width: 60vw;
     }
-    @media only screen and (max-width: 1279px){
-        width: 65vw;
-        height: 50vh;
+    @media screen and (min-width: 1280px){
+        width: 50vw;
+        height: 60vh;
     }
 `;
-export const StyledTitle = styled.h1`
-    font-weight: 700;
-    color: #000;
-    margin-block: 5%;
 
-    @media only screen and (max-width: 480px){
-        font-size: 26px;
-    }
+export const StyledTitle = styled.h1`
+    font-weight: 500;
+    position: absolute;
+    top: 10%;
 `;
 
 export const StyledNumber = styled.p`
-    color: #000;
+    text-align: center;
+    font-size: 2em;
     font-weight: 500;
-    font-size: 30px;
+    position: absolute;
+    top: 35%;
 `;
-export const ButtonsConatiner = styled.div`
+export const ButtonContainer = styled.div`
     display: flex;
-    flex-direction: row;
-    gap: 50px;
-    margin-top: 8%;
-    @media only screen and (max-width: 480px){
-        margin-top: 10%;
-        flex-direction: column;
-        font-size: 16px;
-    }
-    @media only screen and (max-width: 768px){
-        margin-top: 10%;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    position: absolute;
+    bottom: 10%;
+    @media screen and (min-width: 1280px){
+        flex-direction: row;
+        width: 60%;
+        justify-content: space-evenly;
     }
 `;
-export const StyledButtonRed = styled.button`
-    background-color: #F03E3E;
-    color: #fff;
-    border: none;
-    padding: 15px 25px;
-    border-radius: 5px;
-    font-size: 25px;
-    font-weight: 500;
+export const StyledButtonDec = styled.button`
+    background-color: #EE3F3B;
 `;
-
 export const StyledButtonReset = styled.button`
-    background-color: #EFEFEF;
-    color: #000;
-    border: none;
-    padding: 15px 25px;
-    border-radius: 5px;
-    font-size: 25px;
-    font-weight: 500;
+    background-color: #F0EEEF;
 `;
-
-export const StyledButtonGreen = styled.button`
-    background-color: #38B24D;
-    color: #fff;
-    border: none;
-    padding: 15px 25px;
-    border-radius: 5px;
-    font-size: 25px;
-    font-weight: 500;
+export const StyledButtonInc = styled.button`
+    background-color: #38B446;
 `;
